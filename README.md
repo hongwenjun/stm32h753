@@ -1,5 +1,6 @@
-## [STM32H753ZI MCU的STM32 Nucleo-144开发板 文档](https://www.st.com/en/evaluation-tools/nucleo-h753zi.html)   https://git.io/stm32
-- 采用STM32H753ZI MCU的STM32 Nucleo-144开发板，支持Arduino，ST Zio和morpho连接
+## STM32 Nucleo-144开发板 MCU的文档 [STM32H743ZI](https://www.st.com/en/evaluation-tools/nucleo-h743zi.html) [STM32H753ZI](https://www.st.com/en/evaluation-tools/nucleo-h753zi.html)
+- 短域名: https://git.io/stm32
+- 采用STM32H743ZI/STM32H753ZI MCU的STM32 Nucleo-144开发板，支持Arduino，ST Zio和morpho连接
 
 ![](https://github.com/hongwenjun/stm32h753/raw/master/img/stm32_nucleo.jpg)
 
@@ -67,7 +68,7 @@ STM32 Nucleo-144板带有STM32综合免费软件库和STM32Cube MCU封装的示�
 
 ### 精选视频
 
-- [用于STM32的Nucleo-32板的产品概述](https://www.st.com/zh/evaluation-tools/nucleo-h753zi.html)
+- [用于STM32的Nucleo-32板的产品概述](https://www.st.com/zh/evaluation-tools/nucleo-h743zi.html)
 
 	本视频将展示Nucleo，Nucleo-32并提供有关Nucleo-32的详细信息。Nucleo 32针结构紧凑，但屏蔽板较少。
 
