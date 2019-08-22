@@ -1,4 +1,4 @@
-## STM32 Nucleo-144开发板 MCU的文档 [STM32H743ZI](https://www.st.com/en/evaluation-tools/nucleo-h743zi.html) [STM32H753ZI](https://www.st.com/en/evaluation-tools/nucleo-h753zi.html)
+## STM32 Nucleo-144开发板 MCU的文档 [STM32H743ZI](https://www.st.com/zh/microcontrollers-microprocessors/stm32h743zi.html#resource) [STM32H753ZI](https://www.st.com/en/evaluation-tools/nucleo-h753zi.html)
 - 短域名: https://git.io/stm32
 - 采用STM32H743ZI/STM32H753ZI MCU的STM32 Nucleo-144开发板，支持Arduino，ST Zio和morpho连接
 
@@ -6,7 +6,8 @@
 
 ### 技术文档手册 资源  [百度网盘链接:](https://pan.baidu.com/s/1y-VJsHFHUPCaSau1pdbdGQ)   提取码: 2fv2 
 
-- 产品规格 技术文档 手册 [官方下载](https://www.st.com/zh/evaluation-tools/nucleo-h753zi.html)
+- 产品规格 技术文档 手册 [官方下载](https://www.st.com/zh/microcontrollers-microprocessors/stm32h743zi.html#resource)
+- https://www.st.com/zh/microcontrollers-microprocessors/stm32h743zi.html#resource
 - https://www.st.com/zh/evaluation-tools/nucleo-h753zi.html
 
 ### 概述
