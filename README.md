@@ -81,8 +81,8 @@ STM32 Nucleo-144板带有STM32综合免费软件库和STM32Cube MCU封装的示�
 
 ![](https://github.com/hongwenjun/stm32h753/raw/master/Ethernet_PHY/Ethernet_PHY.webp)
 
-- 采用HP Auto-MDIX和flexPWR®技术的小尺寸RMII 10/100以太网收发器  [文档: DS_LAN8742A.pdf](https://github.com/hongwenjun/stm32h753/raw/master/Ethernet_PHY/DS_LAN8742A.pdf)
+- 采用HP Auto-MDIX和flexPWR®技术的小尺寸RMII 10/100以太网收发器  文档: [DS_LAN8742A.pdf](https://github.com/hongwenjun/stm32h753/raw/master/Ethernet_PHY/DS_LAN8742A.pdf)
 
 - Small Footprint RMII 10/100 Ethernet Transceiver with HP Auto-MDIX and flexPWR® Technology
 
-- KMS-1102NL 网络变压器   [文档: H1102NL-rev.A_Model.pdf](https://github.com/hongwenjun/stm32h753/raw/master/Ethernet_PHY/DH1102NL-rev.A_Model.pdf)
+- KMS-1102NL 网络变压器   文档: [H1102NL-rev.A_Model.pdf](https://github.com/hongwenjun/stm32h753/raw/master/Ethernet_PHY/H1102NL-rev.A_Model.pdf)
