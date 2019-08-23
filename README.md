@@ -86,3 +86,8 @@ STM32 Nucleo-144板带有STM32综合免费软件库和STM32Cube MCU封装的示�
 - Small Footprint RMII 10/100 Ethernet Transceiver with HP Auto-MDIX and flexPWR® Technology
 
 - KMS-1102NL 网络变压器   文档: [H1102NL-rev.A_Model.pdf](https://github.com/hongwenjun/stm32h753/raw/master/Ethernet_PHY/H1102NL-rev.A_Model.pdf)
+
+- TVS瞬态电压抑制二极管 / 极低电容ESD保护  USBLC6-4SC6  文档: [USBLC6-4SC6_datasheet.pdf](https://github.com/hongwenjun/stm32h753/raw/master/Ethernet_PHY/USBLC6-4SC6_datasheet.pdf)
+
+USBLC6-4SC6是一种专用于高速静电放电保护的单片应用离散型接口，如USB2.0、以太网和视频线，
+极低的线电容确保了高水平的信号完整性，同时不影响保护敏感芯片免受最强烈的静电放电冲击。
