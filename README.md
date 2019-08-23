@@ -76,3 +76,13 @@ STM32 Nucleo-144板带有STM32综合免费软件库和STM32Cube MCU封装的示�
 - [使用STM32 ODE可以更快地进行原型设计和开发](https://www.st.com/zh/evaluation-tools/nucleo-h753zi.html)
 
 	STM32开放式开发环境是开发创新设备和应用程序的灵活，简单且经济实惠的方式。它基于STM32 Nucleo板和STM32Cube软件。
+
+### 以太网物理接口和RJ45连接器
+
+![](https://github.com/hongwenjun/stm32h753/raw/master/Ethernet_PHY/Ethernet_PHY.webp)
+
+- 采用HP Auto-MDIX和flexPWR®技术的小尺寸RMII 10/100以太网收发器  [文档: DS_LAN8742A.pdf](https://github.com/hongwenjun/stm32h753/raw/master/Ethernet_PHY/DS_LAN8742A.pdf)
+
+- Small Footprint RMII 10/100 Ethernet Transceiver with HP Auto-MDIX and flexPWR® Technology
+
+- KMS-1102NL 网络变压器   [文档: H1102NL-rev.A_Model.pdf](https://github.com/hongwenjun/stm32h753/raw/master/Ethernet_PHY/DH1102NL-rev.A_Model.pdf)
