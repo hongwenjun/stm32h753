@@ -55,17 +55,36 @@ STM32 Nucleo-144板带有STM32综合免费软件库和STM32Cube MCU封装的示�
 ### STM32_Nucleo-144开发板 接口图
 
 ![](https://github.com/hongwenjun/stm32h753/raw/master/img/nucleo144.jpg)
-	
-### 开发工具硬件
 
-- 软件开发工具
+--- 
+## 开发工具和编译环境搭建  [百度网盘链接:](https://pan.baidu.com/s/1y-VJsHFHUPCaSau1pdbdGQ)   提取码: 2fv2 
 
-| 产品型号 | 制造商   | 描述 |
-| ----- | --------- | ----------- | 
-| ST-LINK-SERVER | ST | ST-LINK server software module |
-|STSW-LINK007 | ST | ST-LINK, ST-LINK/V2, ST-LINK/V2-1, STLINK-V3 boards firmware upgrade |
-| STSW-LINK009 | ST | ST-LINK, ST-LINK/V2, ST-LINK/V2-1 USB driver signed for Windows7 8 10 |
+### 编译环境安装程序 mdk528a.exe 
+```
+安装 Keil uVision5 和 ARM 编译器后
+.\Arm\Packs\.Download\ 会自动安装 UNPACK
+ARM.CMSIS.5.5.1.pack 
+ARM.CMSIS-Driver.2.4.0.pack 
+Keil.ARM_Compiler.1.6.1.pack
+Keil.MDK-Middleware.7.8.0.pack
+```
 
+### 开发库程序和文档 STM32H7xx_DFP
+```
+Keil.STM32H7xx_DFP.2.3.0.pack
+可以在线安装，如果速度慢，使用这个离线包
+放到 .\Arm\Packs\.Download\ 目录下 UNPACK 安装
+```
+
+![](https://raw.githubusercontent.com/hongwenjun/stm32h753/master/img/Keil_STM32H7xx_DFP.png)
+
+### 固件下载程序和ST LINK V3驱动
+en.stm32cubeprog.zip  释放安装后找到，找到程序目录下的驱动目录安装ST LINK V3驱动
+
+### 编译库文档示例程序大集成包，不是必须
+en.stm32cubeh7.zip 和上面安装的大多数重复
+
+---
 
 ### 精选视频
 
