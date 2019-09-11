@@ -4,7 +4,7 @@
 
 ![](https://github.com/hongwenjun/stm32h753/raw/master/img/stm32_nucleo.jpg)
 
-### 技术文档手册 资源  [百度网盘链接:](https://pan.baidu.com/s/1y-VJsHFHUPCaSau1pdbdGQ)   提取码: 2fv2 
+### 技术文档手册 资源  [百度网盘链接:](https://pan.baidu.com/s/1nF86J4iN1ICV01TrQHr0DA)   提取码: gw2z 
 
 - 产品规格 技术文档 手册 [官方下载](https://www.st.com/zh/microcontrollers-microprocessors/stm32h743zi.html#resource)
 - https://www.st.com/zh/microcontrollers-microprocessors/stm32h743zi.html#resource
@@ -57,7 +57,7 @@ STM32 Nucleo-144板带有STM32综合免费软件库和STM32Cube MCU封装的示�
 ![](https://github.com/hongwenjun/stm32h753/raw/master/img/nucleo144.jpg)
 
 --- 
-## 开发工具和编译环境搭建  [百度网盘链接:](https://pan.baidu.com/s/1y-VJsHFHUPCaSau1pdbdGQ)   提取码: 2fv2 
+## 开发工具和编译环境搭建  [百度网盘链接:](https://pan.baidu.com/s/1nF86J4iN1ICV01TrQHr0DA)   提取码: gw2z 
 
 ### 编译环境安装程序 mdk528a.exe 
 ```
@@ -81,9 +81,12 @@ Keil.STM32H7xx_DFP.2.3.0.pack
 ### 固件下载程序和ST LINK V3驱动
 en.stm32cubeprog.zip  释放安装后找到，找到程序目录下的驱动目录安装ST LINK V3驱动
 
+![](https://raw.githubusercontent.com/hongwenjun/stm32h753/master/img/st_link_v3.png)
+
 ### 编译库文档示例程序大集成包，不是必须
 en.stm32cubeh7.zip 和上面安装的大多数重复
 
+![](https://raw.githubusercontent.com/hongwenjun/stm32h753/master/img/stm32cubeh7.png)
 ---
 
 ### 精选视频
