@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CodeBlocks_Stm32" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/stm32" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="Inc" />
+					<Add directory="Drivers/CMSIS/Include" />
+					<Add directory="Drivers/STM32H7xx_HAL_Driver/Inc" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_comp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cryp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cryp_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dac.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dac_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dcmi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dfsdm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dsi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_eth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_eth_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hash_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hcd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hrtim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2s.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2s_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_irda.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_jpeg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_lptim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdios.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mmc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mmc_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_msp_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_nand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_nor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_opamp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_opamp_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_qspi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ramecc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rng.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sai.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sai_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_smartcard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_smartcard_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_smbus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spdifrx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sram.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_swpmi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_timebase_rtc_alarm_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_timebase_rtc_wakeup_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_timebase_tim_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_wwdg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_adc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_bdma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_comp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_crc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_dac.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_delayblock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_dma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_dma2d.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_exti.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_hrtim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_i2c.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_lptim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_lpuart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_mdma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_opamp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_pwr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_rcc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_rng.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_rtc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_spi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_swpmi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_tim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src/stm32h7xx_hal_msp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src/stm32h7xx_it.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src/system_stm32h7xx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
