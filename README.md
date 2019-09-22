@@ -89,6 +89,8 @@ en.stm32cubeh7.zip 和上面安装的大多数重复
 ![](https://raw.githubusercontent.com/hongwenjun/stm32h753/master/img/stm32cubeh7.png)
 ---
 
+## STM32 Nucleo-144 开发板 STM32H743ZI2 示例程序  项目建立和编译编辑 [图文链接](https://github.com/hongwenjun/stm32h753/tree/master/Examples)
+
 ### 精选视频
 
 - [用于STM32的Nucleo-32板的产品概述](https://www.st.com/zh/evaluation-tools/nucleo-h743zi.html)
