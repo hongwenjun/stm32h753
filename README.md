@@ -4,7 +4,9 @@
 
 ![](https://github.com/hongwenjun/stm32h753/raw/master/img/stm32_nucleo.jpg)
 
-### 技术文档手册 资源  [百度网盘链接:](https://pan.baidu.com/s/1nF86J4iN1ICV01TrQHr0DA)   提取码: gw2z 
+## C51单片机  STM32单片机  HC6800-ES V2.0光盘资料 [阿里云盘分享](https://www.aliyundrive.com/s/rn4f6h4cpSr)
+
+### 技术文档手册 资源  [百度网盘链接:](https://pan.baidu.com/s/1MZqNVB_GOtdjwHJQhqx_3Q)   提取码: x1sc
 
 - 产品规格 技术文档 手册 [官方下载](https://www.st.com/zh/microcontrollers-microprocessors/stm32h743zi.html#resource)
 - https://www.st.com/zh/microcontrollers-microprocessors/stm32h743zi.html#resource
